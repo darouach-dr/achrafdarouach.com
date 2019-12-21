@@ -1,0 +1,101 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Exercice</title>
+</head>
+<body background="c.jpg">
+<table border="0" width="100%">
+  <tr>
+    <td width="17%">
+      <p align="center"><img border="0" src="b.gif" width="260" height="130"></td>
+    <td width="66%">
+      <p align="center"><font size="7" face="Century Gothic"><b><span style="background-color: red"><a name="haut">E</a></span><a name="haut">xercice
+</a></b></font></td>
+    <td width="17%">
+      <p align="center"><img border="0" src="bbb.png" width="260" height="130"></td>
+  </tr>
+</table>
+<form name='tonformulaire'>
+		<p class="vc"> calculer la multiplication de ces nombres : </p> 
+		9 * 5 = <input type='text' name='nomdetontext'>
+	<input type='button' onClick='ttdonnees()' value='valider ' ><br>
+
+	<p class="ba">resultat :</p><p id='tonID'></p>
+	</form>
+	<form name='tonformulaires'>
+		
+		15 * 12 = <input type='text' name='nomdetontexts'>
+	<input type='button' onClick='ttdonneess()' value='valider ' ><br>
+
+	<p class="ba">resultat :</p><p id='tonIDs'></p>
+	</form>
+<form name='tonformulairess'>
+		
+		65 * 13 = <input type='text' name='nomdetontextss'>
+	<input type='button' onClick='ttdonneesss()' value='valider ' ><br>
+
+	<p class="ba">resultat :</p><p id='tonIDss'></p>
+	</form>
+	<form name='tonformulairesss'>
+		
+		100 * 0 = <input type='text' name='nomdetontextsss'>
+	<input type='button' onClick='ttdonneessss()' value='valider ' ><br>
+
+	<p class="ba">resultat :</p><p id='tonIDsss'></p>
+	</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+
+function ttdonnees() {
+var nombre= document.tonformulaire.nomdetontext.value; <!-- tu récupères-->
+if (nombre == 45 ) {document.getElementById('tonID').innerHTML = true ;}
+else document.getElementById('tonID').innerHTML = false ;
+<!-- tu envoies le résultat dans ton paragraphe-->
+}
+function ttdonneess() {
+var nombre= document.tonformulaires.nomdetontexts.value; <!-- tu récupères-->
+if (nombre == 180 ) {document.getElementById('tonIDs').innerHTML = true ;}
+else document.getElementById('tonIDs').innerHTML = false ;
+<!-- tu envoies le résultat dans ton paragraphe-->
+}
+function ttdonneesss() {
+var nombre= document.tonformulairess.nomdetontextss.value; <!-- tu récupères-->
+if (nombre == 845 ) {document.getElementById('tonIDss').innerHTML = true ;}
+else document.getElementById('tonIDss').innerHTML = false ;
+<!-- tu envoies le résultat dans ton paragraphe-->
+}
+function ttdonneessss() {
+var nombre= document.tonformulairesss.nomdetontextsss.value; <!-- tu récupères-->
+if (nombre == 0 ) {document.getElementById('tonIDsss').innerHTML = true ;}
+else document.getElementById('tonIDsss').innerHTML = false ;
+<!-- tu envoies le résultat dans ton paragraphe-->
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</html>

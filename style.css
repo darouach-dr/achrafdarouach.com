@@ -1,0 +1,92 @@
+body
+      {background-image: url("ca.jpg");
+	  background-attachment: fixed
+	  }
+	  
+	  
+	 
+.aaa{
+	color:black;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+}
+.cc{color:red;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	text-decoration:underline;
+	
+}
+.f{ 
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	color:red;
+}
+a:link{
+	color:black;
+	text-decoration:none;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+}
+a:visited{
+	color:gray;
+	text-decoration:none;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+a:active{
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+}
+a:hover{
+	letter-spacing:2px;
+	color:blue;
+}
+.oo{color:red;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	text-decoration:underline;
+	
+}
+.vc{
+	color:blue;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 35px;
+	text-decoration:underline;
+	
+}
+.nbb{
+	float:left;
+}
+div{
+ border-width:1px 2px 3px 2px;
+ border-style:solid;
+ border-color:black;
+ padding:0 10px;
+}
+.kok{
+	color:red;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	text-decoration:underline;
+}
+.ba{
+	color:yellow;
+	font-family:arial,verdana,sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.mv{
+	color:green;
+}
+
